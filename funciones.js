@@ -1,4 +1,5 @@
 
+
 window.addEventListener('load', function () {
     console.log('el contenido se ha cargado');
 
@@ -49,15 +50,5 @@ function validarCampos(email,nombre,mensaje) {
 }
 
 
-var objetoJson= {"Python":200,"Java":30,"JavaScript":45};
-var objetoJsonSTR = JSON.stringify(objetoJson);
 
-window.onload = function(){
-    document.getElementById("primero").value = 31;
-    document.getElementById("segundo").value = 32;
-    document.getElementById("tercero").value = 33;
-    };
-
-
-
-
+function borrarCampos(){}
